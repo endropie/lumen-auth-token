@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Extensions\AuthToken\Concerns;
+namespace Endropie\LumenAuthToken\Concerns;
 
 use Illuminate\Support\Carbon;
-use App\Extensions\AuthToken\Support\JWT;
+use Endropie\LumenAuthToken\Support\JWT;
 
 trait AuthorizableToken
 {

@@ -1,7 +1,7 @@
 <?php
-namespace App\Extensions\AuthToken\Providers;
+namespace Endropie\LumenAuthToken\Providers;
 
-use App\Extensions\AuthToken\Support\TokenUser;
+use Endropie\LumenAuthToken\Support\TokenUser;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\UserProvider;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Extensions\AuthToken;
+namespace Endropie\LumenAuthToken;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use App\Extensions\AuthToken\Guards\JWTGuard;
-use App\Extensions\AuthToken\Guards\TokenGuard;
-use App\Extensions\AuthToken\Providers\TokenProvider;
-use App\Extensions\AuthToken\Support\TokenUser;
+use Endropie\LumenAuthToken\Guards\JWTGuard;
+use Endropie\LumenAuthToken\Guards\TokenGuard;
+use Endropie\LumenAuthToken\Providers\TokenProvider;
+use Endropie\LumenAuthToken\Support\TokenUser;
 
 class ServiceProvider extends BaseServiceProvider
 {

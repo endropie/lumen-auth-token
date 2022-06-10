@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Extensions\AuthToken\Guards;
+namespace Endropie\LumenAuthToken\Guards;
 
 use Exception;
-use App\Extensions\AuthToken\Support\JWT;
+use Endropie\LumenAuthToken\Support\JWT;
 use Illuminate\Auth\GuardHelpers;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\UserProvider;

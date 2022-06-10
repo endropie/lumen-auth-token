@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Extensions\AuthToken\Support;
+namespace Endropie\LumenAuthToken\Support;
 
 use Illuminate\Auth\GenericUser;
 use Illuminate\Contracts\Auth\Authenticatable;

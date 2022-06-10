@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Extensions\AuthToken\Support;
+namespace Endropie\LumenAuthToken\Support;
 
 use Firebase\JWT\JWT as FirebaseJwt;
 use Firebase\JWT\Key as FirebaseJwtKey;
