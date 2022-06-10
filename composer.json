@@ -1,0 +1,20 @@
+{
+    "name": "endropie/lumen-auth-token",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Endropie\\LumenAuthToken\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "endropie",
+            "email": "hendrowibo@msn.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "firebase/php-jwt": "^6.2"
+    }
+}
